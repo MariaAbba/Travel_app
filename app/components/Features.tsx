@@ -56,15 +56,8 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
         <Image src={icon} alt="map" width={28} height={28} />
       </div>
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
-      <p className='regular-16 mt-5 bg-white'>{description}</p>
+      <p className="regular-16 mt-5 bg-white">{description}</p>
     </li>
   )
 }
 export default Features
-
-//  <Image
-//     src="/camp.svg"
-//     alt="camp"
-//     width={50}
-//     height={50}
-//      />
