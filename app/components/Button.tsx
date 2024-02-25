@@ -21,3 +21,4 @@ const Button = ({ type, title, icon, variant }) => {
 }
 
 export default Button
+
