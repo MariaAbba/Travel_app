@@ -73,7 +73,7 @@ type FooterColumn = {
   children: React.ReactNode
 }
 
-const FooterColumn = ({ title, children }) => {
+const FooterColumn: React.FC<FooterColumnProps> = ({ title, children }) => {
   return (
     <div className="flex flex-col gap-5">
       <h4 className="bold-18 whitespace-nowrap">{title}</h4>
