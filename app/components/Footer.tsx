@@ -68,7 +68,7 @@ const Footer = () => {
   )
 }
 
-type FooterColumn = {
+type FooterColumnProps = {
   title: string
   children: React.ReactNode
 }
